@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans&family=Quicksand&family=Raleway&display=swap');
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+.firstTitle {
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+}
+.secondTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+.firstText {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+.secondText {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}

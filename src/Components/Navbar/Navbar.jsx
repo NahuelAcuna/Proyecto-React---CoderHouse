@@ -1,6 +1,7 @@
-import './index.css'
+import '../../index.css'
 import './navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Widget from '../CartWidget/CartWidget'
 
 function Navbar() {
     return (
@@ -16,6 +17,7 @@ function Navbar() {
                     <li><a href="#">Productos</a></li>
                     <li><a href="#">Nosotros</a></li>
                     <li><a href="#">Contácto</a></li>
+                    <Widget/>
                 </div>
             </div>
         </div>

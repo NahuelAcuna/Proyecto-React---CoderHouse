@@ -1,0 +1,13 @@
+.iconBox {
+    margin-left: 0.3rem;
+    background-color: #222;
+    padding: .6rem;
+    border-radius: 0.4rem;
+}
+.iconBox:hover {
+    background-color: #131212;
+    transition: all .5s;
+}
+.icon {
+    color: #29af29;
+}
