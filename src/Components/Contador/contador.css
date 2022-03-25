@@ -1,0 +1,20 @@
+.contador {
+    max-width: 10rem;
+    max-height: 2rem;
+    border: 1px solid #1a1919;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: .4rem;
+}
+.contador p {
+    width: 4rem;
+    background-color: #222;
+}
+.contador button {
+    width: 2rem;
+    border-radius: .4rem;
+    border: none;
+    height: 2rem;
+}

@@ -1,21 +1,22 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 import Text from './Components/Texts/Texts'
+import Contador from './Components/Contador/Contador'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(1)
 
   return (
     <div className="App">
       <header className="App-header">
+      <ItemListContainer>
         <Text firstTitle='Bienvenidos a mi sitio web'/>
         <Text firstText='¡Clickea el contador!'/>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
+      </ItemListContainer>
+      <Contador/>
       </header>
     </div>
   )
