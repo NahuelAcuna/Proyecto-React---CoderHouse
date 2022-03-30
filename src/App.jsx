@@ -9,6 +9,7 @@ import Contador from './Components/Contador/Contador'
 function App() {
   const [count, setCount] = useState(1)
 
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +17,7 @@ function App() {
         <Text firstTitle='Bienvenidos a mi sitio web'/>
         <Text firstText='¡Clickea el contador!'/>
       </ItemListContainer>
-      <Contador/>
+      <Contador stock={3}/>
       </header>
     </div>
   )
